@@ -19,7 +19,7 @@ Cd Backrezepte-backend
 npm install
 
 # Verwendete KI-Werkzeuge
-ChatGPT
+- ChatGPT:
 Unterstützung bei Fehlermeldungen
 Code-Korrekturen und Optimierung
 Projektplanung 
