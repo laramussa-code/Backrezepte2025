@@ -20,9 +20,9 @@ npm install
 
 # Verwendete KI-Werkzeuge
 - ChatGPT:
-Unterstützung bei Fehlermeldungen
-Code-Korrekturen und Optimierung
-Projektplanung 
+Unterstützung bei Fehlermeldungen,
+Code-Korrekturen und Optimierung,
+Projektplanung, 
 Hilfe bei Frontend-Design (CSS, Bootstrap)
 
 # Funktionen
