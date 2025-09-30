@@ -26,8 +26,8 @@ Projektplanung,
 Hilfe bei Frontend-Design (CSS, Bootstrap)
 
 # Funktionen
-Lieblingsrezepte speichern
-Rezepte ansehen
+Lieblingsrezepte speichern,
+Rezepte ansehen,
 Rezepte bearbeiten
 
 
