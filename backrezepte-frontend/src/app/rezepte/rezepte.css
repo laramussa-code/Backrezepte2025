@@ -1,0 +1,27 @@
+.rezepte-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.rezepte-container {
+    display: inset-block;
+    width: 250px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+
+}
+.rezepte-karte img {
+    width: 100%;
+    border-radius: 8px;
+}
+.rezepte-karte h3 {
+    margin-top: 1opx;
+    font-size: 1.2em;
+}
+.rezepte-karte p {
+    font-size: 0.9em;
+    color: bisque;
+}
