@@ -1,0 +1,47 @@
+<div class= "container mt-5">
+    <div class="row justify-contenr-center">
+        <div class="col-md-6"> 
+            <div class="card shadow-lg p-4" style="max-width: 600px; width: 100%;">
+        <h2 class="mb-4"> Neues Rezept hinzufügen 📝 </h2>
+    
+
+    <form (ngSubmit)="onSubmit()" #rezeptForm= "ngForm">
+
+    <div class="mb-3">
+    <label for= "titel" class="form-label">Titel</label> 
+        <input type="text" id= "titel" 
+        class="form-control" 
+        [(ngModel)]="rezept.titel" 
+        name="titel" required>
+    </div>
+
+
+<div class="mb-3"> 
+    <label for="beschreibung" class="form-label">Beschreibung</label>
+<textarea id="beschreibung" class="form-control" [(ngModel)]="rezept.beschreibung" rows="3"></textarea>
+ 
+</div>
+
+<div class="mb-3"> 
+    <label for="zutaten" class="form-label">Zutaten</label>
+    <textarea id="zutaten" class="form-control" [(ngModel)]="rezept.zutaten" rows="3" 
+    placeholder="z.b Mehl, Zucker, Eier..." ></textarea>
+
+<div class="mb-3">
+<label for="zubereitung" class="form-label">Zubereitung</label>
+<textarea id="zubereitung" class="form-control" [(ngModel)]="rezept.zubereitung" rows="5"></textarea>
+</div>
+
+  <div class="mb-3">  
+    <label for= "bild" class="form-label">Bild </label>
+    <input type="text" id="bild" class="form-control" [(ngModel)]="rezept.bild" placeholder="z.b assets/schokokuchen.jpg">
+   
+</div>
+
+<button type="submit" class="btn btn-success">➕ Rezept hinzufügen</button>
+
+
+</div>
+    
+
+
